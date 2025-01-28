@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 # Configurações da tela
-LARGURA, ALTURA = 500, 600
+LARGURA, ALTURA = 1000, 600
 tela = pygame.display.set_mode((LARGURA, ALTURA))
 pygame.display.set_caption("Jogo da Nave")
 
@@ -38,7 +38,7 @@ som_tiro = pygame.mixer.Sound("tiro.wav")
 # Configurações do jogador
 nave = pygame.Rect(225, 450, 50, 50)  # Ajustada a posição para garantir visibilidade
 velocidade_nave = 5
-vidas = 3
+vidas = 5
 escudo_ativo = False
 
 # Configurações dos asteroides
